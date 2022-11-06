@@ -1,0 +1,143 @@
+/*.content[data-v-9379ae20] {
+    overflow-y: hidden !important;
+}*/
+.inneritem {
+    border: 1px solid #CAD3DF;
+    border-radius: 5px;
+    background: url(../images/ic_line.png) center center repeat-y;
+}
+.inneritem .inneritem-head {
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #CAD3DF;
+    padding-left: 30px;
+    font-size: 14px;
+    color: #464C5B;
+}
+.inneritem .formr {
+    padding: 25px 20px 50px;
+    position: relative;
+}
+.inneritem .formr .ivu-form-item {
+    padding-left: 0;
+    padding-right: 0;
+}
+.inneritem .formr .fixbtn {
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+}
+.inneritem .fixtree {
+    overflow-y: auto;
+}
+
+/*   tree    */
+.ztree * {
+    font-family: 'Microsoft YaHei', Helvetica, PingFang SC, sans-serif;
+    font-size: 14px;
+    color: #3D4D65;
+}
+.ztree li {
+    margin: 10px 0;
+}
+.ztree li span.button.chk {
+    margin: 0 10px;
+}
+.ztree li span.button {
+    background: none;
+}
+.ztree li span.button {
+    width: 0;
+}
+.ztree li span.button.center_docu ,
+.ztree li span.button.bottom_docu ,
+.ztree li ul.line {
+    cursor: default;
+    background: none;
+}
+.ztree li span.button.ico_open {
+    background: none;
+}
+.ztree li span.button.ico_docu {
+    background: none;
+}
+.ztree li span.button.chk {
+    width: 18px;
+    height: 18px;
+}
+.ztree li .diyBtnAdd {
+    display: inline-block;
+    background-image: url(../images/ic_add.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-size: 14px;
+    color: #D0021B;
+    margin-left: 15px;
+    margin-top: 3px;
+    text-indent: -9999px;
+    width: 18px;
+    height:  18px;
+}
+.ztree li .diyBtnEdit {
+    display: inline-block;
+    background-image: url(../images/ic_edit.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-size: 14px;
+    color: #D0021B;
+    margin-left: 15px;
+    margin-top: 3px;
+    text-indent: -9999px;
+    width: 18px;
+    height:  18px;
+}
+.ztree li .diyBtnDel {
+    display: inline-block;
+    background-image: url(../images/ic_delete.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-size: 14px;
+    color: #D0021B;
+    margin-left: 15px;
+    margin-top: 3px;
+    text-indent: -9999px;
+    width: 18px;
+    height:  18px;
+}
+/*  展开  */
+.ztree li span.button.root_open ,
+.ztree li span.button.bottom_open ,
+.ztree li span.button.center_open,
+.ztree li span.button.roots_open {
+    background: url(../images/ic_minus.png) center center no-repeat;
+}
+/*  关闭  */
+.ztree li span.button.bottom_close ,
+.ztree li span.button.root_close ,
+.ztree li span.button.center_close ,
+.ztree li span.button.roots_close {
+    background: url(../images/ic_plussign.png) center center no-repeat;
+}
+/*  checkbox  */
+.ztree li span.button.chk.checkbox_false_full ,
+.ztree li span.button.chk.checkbox_false_full_focus {
+    background: url(../images/ic_checkbox.png) center center no-repeat;
+    cursor: pointer;
+}
+/*  半选   */
+.ztree li span.button.chk.checkbox_true_part ,
+.ztree li span.button.chk.checkbox_true_part_focus ,
+.ztree li span.button.chk.checkbox_false_part ,
+.ztree li span.button.chk.checkbox_false_part_focus {
+    background: url(../images/ic_checbox_halfselect.png) center center no-repeat;
+    cursor: pointer;
+}
+/*   全选   */
+.ztree li span.button.chk.checkbox_true_full ,
+.ztree li span.button.chk.checkbox_true_full_focus {
+    background: url(../images/ic_checkbox_selected.png) center center no-repeat;
+    cursor: pointer;
+}

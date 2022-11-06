@@ -1,0 +1,27 @@
+.postItem {
+    margin: 0 16px;
+}
+.postItem .postTitle {
+    font-size: 14px;
+    color: #464C5B;
+    padding: 10px 0
+}
+.postItem .postInfo {
+    border: 1px solid #CAD3DF;
+    border-radius: 5px;
+    height: 420px;
+    overflow: hidden;
+}
+.postItem .postInfo .postBor {
+    border-right: 1px solid #CAD3DF;
+}
+.postInfo .postTree .item {
+   padding-top: 0;
+   overflow: auto;
+   height: 365px;
+}
+.postInfo .postTree .treesear {
+    height: 55px;
+    padding: 12px 10px 10px;
+    border-bottom: 1px solid #CAD3DF;
+}

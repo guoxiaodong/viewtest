@@ -1,0 +1,217 @@
+.clear { height: 20px; width: 100%; clear: both; }
+/*   header   */
+html, body, #app,.wrapper{height: 100%!important;}
+body { min-width: 1200px;font-size: 14px!important; background-color: #fff; overflow-y: auto;}
+/* margin */
+.m-t-5{margin-top: 5px}
+.m-b-5{margin-bottom: 5px}
+.m-l-5{margin-left: 5px}
+.m-r-5{margin-right: 5px}
+.m-t-10{margin-top: 10px}
+.m-b-10{margin-bottom: 10px}
+.m-l-10{margin-left: 10px}
+.m-r-10{margin-right: 10px}
+.m-t-15{margin-top: 15px}
+.m-b-15{margin-bottom: 15px}
+.m-l-15{margin-left: 15px}
+.m-r-15{margin-right: 15px}
+.m-t-20{margin-top: 20px}
+.m-b-20{margin-bottom: 20px}
+.m-l-20{margin-left: 20px}
+.m-r-20{margin-right: 20px}
+.m-t-40{margin-top: 40px}
+.m-b-40{margin-bottom: 40px}
+.m-l-40{margin-left: 40px}
+.m-r-40{margin-right: 40px}
+
+/*   padding   */
+.p-l-20 { padding-left: 20px; }
+.p-r-20 { padding-right: 20px; }
+
+/* card 修改border */
+.ivu-card{border-radius: 2px!important;}
+.ivu-card-head p{font-size: 18px!important;}
+/* circle 内部字体*/
+.ivu-chart-circle-inner{
+    font-size: 28px;
+    color: #657180;
+}
+.item {  padding: 10px; border-radius: 4px; }  /*   全站内容区域背景及圆角   */
+
+/*加载更多*/
+.info-more {text-align: center}
+.info-more button{color: #9EA7B4;line-height: 18px;}
+/*chrome下input黄色bg start*/
+@-webkit-keyframes autofill {
+    to {
+        color: #666;
+        background: #fff;
+        background: #fff;
+    }
+}
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill:-webkit-autofill {
+    -webkit-animation-name: autofill;
+    -webkit-animation-fill-mode: both;
+}
+/*chrome下input黄色bg end*/
+
+/*other css*/
+.roleinfo {
+    margin: 0 4% 15px;
+    font-size: 14px;
+    color: #657180;
+    line-height: 32px;
+}
+.innerheader {
+    margin: 0 40px;
+    height: 48px;
+    line-height: 48px;
+    border-bottom: 1px solid #D7DDE4;
+    font-size: 18px;
+    color: #464C5B;
+}
+.innerbtns {
+    height: 42px;
+    padding-top: 10px;
+    margin-left: 40px;
+}
+.innercontent {
+    margin: 10px 40px 0;
+    padding-bottom: 30px;
+}
+.manageTitle {
+    font-size: 14px;
+    color: #464C5B;
+}
+
+/*.clearfix辅助类*/
+.clearfix {
+    *zoom: 1;
+}
+
+.clearfix:before,
+.clearfix:after {
+    display: table;
+    line-height: 0;
+    content: "";
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*
+侧边路由栏溢出问题*/
+.wrapper>.sidebar{
+    overflow: auto;
+}
+
+ /*自定义必填验证星号*/
+.needRequired.ivu-form-item .ivu-form-item-label:before {
+    content: '*';
+    display: inline-block;
+    margin-right: 4px;
+    line-height: 1;
+    font-family: SimSun;
+    font-size: 12px;
+    color: #ed3f14;
+}
+ /*控件下拉弹框移位问题，在Select或AutoComplete标签上加class='fixed'*/
+.ivu-modal .fixed div.ivu-select-dropdown{
+    position: fixed!important;
+}
+.flex {
+    display: flex;
+}
+.flex-col{
+    display: flex;
+    flex-direction: column;
+}
+.flex-1{
+    flex: 1;
+}
+.flex-2{
+    flex: 2;
+}
+.flex-3{
+    flex: 3;
+}
+.flex-4{
+    flex: 4;
+}
+.flex-5{
+    flex: 5;
+}
+.flex-v-center{
+    align-items: center;
+}
+.fill-height{
+    height: 100%;
+}
+.fill-width{
+    width:100%;
+}
+.no-padding{
+    padding:0;
+}
+.no-margin{
+    margin:0;
+}
+.no-border{
+    border:0;
+}
+.border{
+    border:1px solid #ddd;
+}
+.fill-content{
+    position:absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+}
+.relative{
+    position:relative;
+}
+.pull-left{
+    float: left;
+}
+.pull-right{
+    float: right;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.priority-1,.serious-1{
+    color: red;
+}
+.priority-2,.serious-2{
+    color: yellow;
+}
+.priority-3,.serious-3{
+    color: green;
+}
+.circle-square{
+    display: inline-block;
+    width:10px;
+    height:10px;
+    border-radius:50%;
+}
+.underline{
+    text-decoration: underline;
+}
+/*辅助类 居中*/
+.center-block{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
