@@ -1,2 +1,4 @@
-hello master
-hello master
+<?php
+echo 'hello master';
+echo 'hello future1';
+?>
